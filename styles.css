@@ -408,3 +408,41 @@ video{
   
   
 }
+
+
+@media screen and (min-width: 600px) and (max-width: 1270px) {
+
+  .home-container{
+    min-height: 100vh;
+    
+    padding: 5rem;
+    flex-direction: column;
+    font-size: 2rem;
+  }
+
+  .headinghome {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .headingdesc {
+    font-size: 2rem;
+    color: crimson;
+  }
+
+  .right{
+    gap: 1rem;
+  }
+
+  nav{
+    justify-content: space-around;
+  }
+
+  .appdownload {
+    height: 6rem;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+    
+  }
+
+}
