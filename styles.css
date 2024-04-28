@@ -69,18 +69,27 @@ nav {
   /* height: calc(100vh - 100px); */
  height: calc(100vh + 5rem);
   display: flex;
-  gap: 5rem;
+  /* gap: 5rem; */
   justify-content: space-around;
   padding: 6rem;
   flex-wrap: wrap;
   
  
 }
+video{
+  border: none;
+  outline: none;
+  width: 118%;
+  height: 100%;
+  overflow: hidden;
+
+  object-fit: cover;
+}
 
 .homeleft {
 
   
-  max-width: 60%;
+  max-width: 50%;
   height: 100%;
   /* padding: 50px 20px; */
   display: flex;
@@ -90,6 +99,7 @@ nav {
 }
 .homeright {
   height: 100%;
+ 
  
 }
 
@@ -107,6 +117,7 @@ nav {
 }
 .iphone {
   height: 100%;
+  
   
 }
 
