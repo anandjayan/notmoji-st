@@ -20,7 +20,7 @@ a {
 }
 
 .logo{
-  height: 40px;
+  height: 3rem;
 }
 
 a:hover,
@@ -34,33 +34,37 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  height: 5rem;
   width: 100%;
   background: #ffffff;
   padding: 0 20px;
   position: fixed;
   top: 0;
+  
 
 }
 
 .left {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   align-items: center;
+  
 }
 
 .right {
   display: flex;
-  gap: 25px;
+  gap: 2rem;
+  
+
 }
 .home-container {
   /* padding: 25px 0; */
   /* height: calc(100vh - 100px); */
   height: 100vh;
   display: flex;
-  gap: 50px;
+  gap: 5rem;
   justify-content: space-around;
-  padding: 100px 100px 35px 100px;
+  padding: 6rem;
   
  
 }
@@ -68,8 +72,8 @@ nav {
 .homeleft {
 
   
-  max-width: 700px;
-  height: 540px;
+  max-width: 60%;
+  height: 100%;
   /* padding: 50px 20px; */
   display: flex;
   flex-direction: column;
@@ -77,28 +81,29 @@ nav {
   justify-content: space-around;
 }
 .homeright {
-  height: 540px;
+  height: 100%;
  
 }
 
 .main-name {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .headinghome {
-  font-size: 60px;
-  line-height: 58px;
+  font-size: 4rem;
+  line-height: 4.5rem;
 }
 .headingdesc {
-  font-size: 30px;
+  font-size: 2rem;
+  color: crimson;
 }
 .iphone {
-  height: 540px;
+  height: 110%;
   
 }
 
 .appdownload {
-  height: 200px;
+  height: 12rem;
   object-fit: contain;
   padding-left: 0;
 }
@@ -168,37 +173,38 @@ nav {
 } */
 
 .maindiv{
-  padding: 200px;
+  padding: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  gap: 10px;
-}
-
-.maindiv p {
+  gap: 1rem;
   font-size: 20px;
 }
 
+.maindiv p {
+  font-size: 1em;
+}
+
 .maindiv h3{
-  font-size: 30px;
+  font-size: 1.5em;
 }
 
 .maindiv h2{
-  font-size: 35px;
+  font-size: 2em;
 }
 
 .icons{
-  height: 100px;
-  width: 100px;
+  height: 5rem;
+  width: 5rem;
 }
 .playstore{
-  height: 70px;
+  height: 5rem;
   cursor: pointer;
 }
 .card{
-  padding: 35px 15px;
+  padding: 3rem 3rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -212,7 +218,7 @@ nav {
 }
 
 .card:hover{
-  background-color: #c3f6f3;
+  background-color: #bae4e1;
 }
 .card p {
   font-size: 15px;
@@ -226,8 +232,9 @@ nav {
   flex-direction: column;
 }
 .pricing-cards{
-  display: flex;
-  gap: 25px;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
   
   
  
@@ -236,16 +243,20 @@ nav {
 .card-feature{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
-  row-gap: 30px;
+  column-gap: 2rem;
+  row-gap: 2rempx;
 }
 
 .box{
-  padding: 20px;
-  gap: 10px;
+  padding: 2rem;
+  gap: 1rem;
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
 
+}
+
+.box h4{
+ font-size: 1rem;
 }
