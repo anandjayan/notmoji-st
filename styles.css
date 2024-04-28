@@ -44,6 +44,7 @@ nav {
   top: 0;
   font-size: 1rem;
   
+  
 
 }
 #menuline{
@@ -66,7 +67,7 @@ nav {
 .home-container {
   /* padding: 25px 0; */
   /* height: calc(100vh - 100px); */
-  height: 100vh;
+ height: calc(100vh + 5rem);
   display: flex;
   gap: 5rem;
   justify-content: space-around;
@@ -105,7 +106,7 @@ nav {
   color: crimson;
 }
 .iphone {
-  height: 110%;
+  height: 100%;
   
 }
 
@@ -180,27 +181,28 @@ nav {
 } */
 
 .maindiv{
-  padding: 6rem;
+  padding: 2rem 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  
+  min-height: 100vh;
   gap: 1rem;
   font-size: 2rem;
   text-align: center;
 }
 
 .maindiv p {
-  font-size: 1em;
+  font-size: 0.75em;
 }
 
 .maindiv h3{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .maindiv h2{
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .icons{
@@ -254,8 +256,8 @@ nav {
 .card-feature{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
-  row-gap: 2rem;
+  /* column-gap: 1.5rem; */
+  /* row-gap: 1.5rem; */
 }
 
 .box{
